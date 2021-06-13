@@ -1,5 +1,6 @@
 import products from '../products'
 import { Card, Row, Col } from 'react-bootstrap'
+import Product from '../components/Product'
 
 function Homescreen() {
     return (
@@ -9,10 +10,7 @@ function Homescreen() {
                     <Col sm={12} md={6} lg={4} xl={3}>
                         <Card>
                             <Card.Body>
-                                <Card.Img src={prod.image} />
-                                <h1>{prod.title}</h1>
-                                <h5>{prod.desc}</h5>
-                                <h2>${prod.price}</h2>
+                                <Product product={prod} />
                             </Card.Body>
                         </Card>
                     </Col>

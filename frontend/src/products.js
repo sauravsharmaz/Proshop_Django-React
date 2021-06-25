@@ -5,6 +5,7 @@ const products= [
         'desc':'best laptop for coding',
         'brand':'appple',
         'price': 45.32,
+        'rating':4.1,
         'image':'/images/macbook.jpg',
     
     },
@@ -14,6 +15,7 @@ const products= [
         'desc':'best tablet for coding',
         'brand':'appple',
         'price': 425.32,
+        'rating':3.1,
         'image':'/images/mangobook.jpg',
     
     },
@@ -23,6 +25,7 @@ const products= [
         'desc':'best book for coding',
         'brand':'appple',
         'price': 345.32,
+        'rating':3.6,
         'image':'/images/oraangebook.jpg',
     
     },
@@ -32,6 +35,7 @@ const products= [
         'desc':'best book for coding',
         'brand':'onion',
         'price': 534.32,
+        'rating':4.7,
         'image':'/images/macbook.jpg',
     
     },

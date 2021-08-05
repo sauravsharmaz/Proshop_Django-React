@@ -7,6 +7,7 @@ const products= [
         'price': 45.32,
         'rating':4.1,
         'image':'/images/macbook.jpg',
+        'stocksCount':12,
     
     },
     {
@@ -17,6 +18,7 @@ const products= [
         'price': 425.32,
         'rating':3.1,
         'image':'/images/mangobook.jpg',
+        'stocksCount':1,
     
     },
     {
@@ -27,6 +29,7 @@ const products= [
         'price': 345.32,
         'rating':3.6,
         'image':'/images/oraangebook.jpg',
+        'stocksCount':16,
     
     },
     {
@@ -37,6 +40,7 @@ const products= [
         'price': 534.32,
         'rating':4.7,
         'image':'/images/macbook.jpg',
+        'stocksCount':0,
     
     },
 ]

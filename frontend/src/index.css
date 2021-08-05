@@ -6,3 +6,14 @@ main{
   color: yellow;
 }
 
+a{
+  text-decoration: none!important;  
+}
+
+.rating-value{
+  margin-left: 2%; 
+  font-style: italic;
+}
+.stock-status{
+  color: brown;
+}

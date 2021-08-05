@@ -13,11 +13,9 @@ function Rating({value}) {
         rating_classes.push('fas fa-star')
     }
 
-    if (sub_val <= 5 && sub_val>=1){
-        rating_classes.push('fas fa-star-half')
-    }else if(sub_val <= 9 && sub_val>=6){
+    if (sub_val>=1){
         rating_classes.push('fas fa-star-half-alt')
-    }
+    } 
     
 
     return (
